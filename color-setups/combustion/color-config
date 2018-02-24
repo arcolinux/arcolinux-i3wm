@@ -1,0 +1,24 @@
+colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #fdb95b
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #fdb95b #000000
+        active_workspace      #a9a9a9 #ffddaf #000000
+        inactive_workspace    #a9a9a9 #5f676a #eeeeee
+        urgent_workspace      #a9a9a9 #d42121 #eeeeee
+        }
+
+    }
+
+
+# DarkGrey background with white text - not focus grey background - black text
+# Windows decoration colors
+# class                 border  backgr. text    indicator
+client.placeholder      #242424 #242424 #ffffff
+client.background       #242424 #242424 #ffffff
+client.focused          #242424 #fdb95b #ffffff #fdb95b
+client.unfocused        #222222 #ffddaf #ffffff #ffddaf
+client.focused_inactive #222222 #ffddaf #ffffff #ffddaf
+client.urgent           #d42121 #d42121 #f7f7f7 #d42121
+

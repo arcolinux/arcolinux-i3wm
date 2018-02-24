@@ -1,0 +1,22 @@
+colors {
+background #000000
+statusline #FFAF00
+separator #00000
+#Bord #Back #Text
+focused_workspace #FFAF00 #555555 #FFAF00
+active_workspace #FFAF00 #444444 #FFAF00
+inactive_workspace #FFAF00 #000000 #FFAF00
+urgent_workspace #FFAF00 #000000 #900000
+}
+    }
+
+# Black background with arch blue text and borders
+# grey/white background - blue text for rest
+# Windows decoration colors
+# class                 border  backgr. text    indicator
+# class                   border  backgr. text    indicator
+client.background color         #222222
+client.focused          #FFAF00 #FFAF00 #333333  #FFAF00
+client.unfocused        #222222 #222222 #aaaaaa #2e9ef4
+client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.urgent           #2f343a #900000 #ffffff #900000
