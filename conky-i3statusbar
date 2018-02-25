@@ -33,7 +33,7 @@ conky.config = {
 conky.text = [[
   [
     {
-      "full_text": " ArchMerge $kernel ",
+      "full_text": " ArcoLinux $kernel ",
       "color": "\#fdf6e3",
       "background": "\#dc322f",
       "separator": true,
