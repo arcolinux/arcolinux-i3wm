@@ -346,40 +346,40 @@ font pango:Noto Mono Regular 13
 # you can find the class with the program xprop
 
 # Workspace 1 browser related
-assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
-assign [class="Chromium|Google-chrome"]                                             → 1
+#assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
+#assign [class="Chromium|Google-chrome"]                                             → 1
 
 # Workspace 2 text editor related
-assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 2
-assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                                   → 2
+#assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 2
+#assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                                   → 2
 
 # Workspace 3 Inkscape
-assign [class="Inkscape"]                                                           → 3
+#assign [class="Inkscape"]                                                           → 3
 
 # Workspace 4 Gimp
-assign [class="Gimp"]                                                               → 4
+#assign [class="Gimp"]                                                               → 4
 
 # Workspace 5 Images and meld
-assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
-assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
-assign [class="Meld"]                                                               → 5
+#assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
+#assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
+#assign [class="Meld"]                                                               → 5
 
 # Workspace 6 all video related software
-assign [class="Vlc|vlc"]                                                            → 6
+#assign [class="Vlc|vlc"]                                                            → 6
 
 # Workspace 7 virtual machines and settings
-assign [class="Vmplayer|VirtualBox"]						    → 7
+#assign [class="Vmplayer|VirtualBox"]						    → 7
 
 # Workspace 8 file managers
-assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]                                 → 8
+#assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]                                 → 8
 
 # Workspace 9 email clients
-assign [class="Geary|Evolution"]                                                    → 9
+#assign [class="Geary|Evolution"]                                                    → 9
 
 # Workspace 10 music related
-assign [class="Spotify|spotify"]                                                    → 10
+#assign [class="Spotify|spotify"]                                                    → 10
 #fix for spotify not moving to workspace 10
-for_window [class="Spotify"] move to workspace 10
+#for_window [class="Spotify"] move to workspace 10
 
 
 
@@ -391,12 +391,12 @@ for_window [class="Spotify"] move to workspace 10
 # USER APPLICATIONS TO START AT BOOT
 
 #browser
-exec --no-startup-id vivaldi-stable
+#exec --no-startup-id vivaldi-stable
 for_window [class="Vivaldi-stable"] focus
 
 #text-editor
 #exec --no-startup-id geany
-exec --no-startup-id atom
+#exec --no-startup-id atom
 
 #file manager
 exec --no-startup-id thunar
@@ -493,11 +493,11 @@ bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
 
 #deadbeef or lollypop
 #arcolinux conflict
-#bindsym $mod+m exec --no-startup-id deadbeef;workspace 10; focus
+#bindsym $mod+m exec --no-startup-id deadbeef;focus
 
 #htop
 #arcolinux conflict
-#bindsym $mod+h exec --no-startup-id htop;workspace 7; focus
+#bindsym $mod+h exec --no-startup-id htop;focus
 
 #pavucontrol
 #arcolinux conflict
@@ -512,49 +512,49 @@ bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
 #workspace related
 
 #workspace 1 related
-bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;workspace 1;focus
+bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
 #qwerty/azerty conflict with w
-bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;workspace 1;focus
-bindsym control+mod1+f exec --no-startup-id firefox;workspace 1; focus
-bindsym control+mod1+v exec --no-startup-id vivaldi-stable;workspace 1; focus
-bindsym control+mod1+g exec --no-startup-id chromium;workspace 1;focus
+bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;focus
+bindsym control+mod1+f exec --no-startup-id firefox;focus
+bindsym control+mod1+v exec --no-startup-id vivaldi-stable;focus
+bindsym control+mod1+g exec --no-startup-id chromium;focus
 
 #workspace 2 related
-#bindsym $mod+F2 exec --no-startup-id geany;workspace 2;focus
-bindsym $mod+F2 exec --no-startup-id atom;workspace 2;focus
-bindsym control+mod1+w exec --no-startup-id geany;workspace 2;focus
+#bindsym $mod+F2 exec --no-startup-id geany;focus
+bindsym $mod+F2 exec --no-startup-id atom;focus
+bindsym control+mod1+w exec --no-startup-id geany;focus
 
 #workspace 3 related
-bindsym $mod+F3 exec --no-startup-id inkscape;workspace 3;focus
+bindsym $mod+F3 exec --no-startup-id inkscape;focus
 
 #workspace 4 related
-bindsym $mod+F4 exec --no-startup-id gimp;workspace 4;focus
+bindsym $mod+F4 exec --no-startup-id gimp;focus
 
 #workspace 5 related
-bindsym $mod+F5 exec --no-startup-id meld;workspace 5;focus
-bindsym control+mod1+i exec --no-startup-id nitrogen;workspace 5;focus
+bindsym $mod+F5 exec --no-startup-id meld;focus
+bindsym control+mod1+i exec --no-startup-id nitrogen;focus
 
 #workspace 6 related
-bindsym $mod+F6 exec --no-startup-id vlc;workspace 6;focus
+bindsym $mod+F6 exec --no-startup-id vlc;focus
 
 #workspace 7 related
-bindsym $mod+F7 exec --no-startup-id virtualbox;workspace 7;focus
+bindsym $mod+F7 exec --no-startup-id virtualbox;focus
 
 #workspace 8 related
 for_window [class="Thunar"] focus
-bindsym $mod+F8 exec --no-startup-id thunar;workspace 8;focus
-bindsym $mod+Shift+Return exec --no-startup-id thunar; workspace 8;focus
-bindsym control+mod1+b exec --no-startup-id thunar;workspace 8;focus
+bindsym $mod+F8 exec --no-startup-id thunar;focus
+bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
+bindsym control+mod1+b exec --no-startup-id thunar;focus
 
 #workspace 9 related
-bindsym $mod+F9 exec --no-startup-id evolution;workspace 9;focus
-bindsym control+mod1+e exec --no-startup-id evolution;workspace 9;focus
-#bindsym $mod+F9 exec --no-startup-id geary;workspace 9;focus
-#bindsym control+mod1+e exec --no-startup-id geary;workspace 9;focus
+bindsym $mod+F9 exec --no-startup-id evolution;focus
+bindsym control+mod1+e exec --no-startup-id evolution;focus
+#bindsym $mod+F9 exec --no-startup-id geary;focus
+#bindsym control+mod1+e exec --no-startup-id geary;focus
 
 #workspace 10 related
-bindsym $mod+F10 exec --no-startup-id spotify;workspace 10;focus
-bindsym control+mod1+s exec --no-startup-id spotify;workspace 10;focus
+bindsym $mod+F10 exec --no-startup-id spotify;focus
+bindsym control+mod1+s exec --no-startup-id spotify;focus
 
 
 
