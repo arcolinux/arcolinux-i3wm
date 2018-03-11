@@ -491,9 +491,8 @@ bindsym control+mod1+c exec --no-startup-id catfish;focus
 #rofi theme selector
 bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
 
-#deadbeef or lollypop
 #arcolinux conflict
-#bindsym $mod+m exec --no-startup-id deadbeef;focus
+#bindsym $mod+m exec --no-startup-id pragha;focus
 
 #htop
 #arcolinux conflict
