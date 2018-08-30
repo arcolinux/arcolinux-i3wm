@@ -151,6 +151,7 @@ bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed 
 
 #Press $mod (super) and X to exit - check toolbar for next choices
 bindsym $mod+X mode "$mode_system"
+bindsym control+mod1+Delete mode "$mode_system"
 
 set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
 mode "$mode_system" {
