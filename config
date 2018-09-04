@@ -13,6 +13,7 @@
 # Shift = SHIFT key
 # Escape = ESCAPE key
 # Return = ENTER or RETURN key
+# KP_Enter = Keypad Enter
 # Pause = PAUSE key
 # Print = PRINT key
 # Tab = TAB key
@@ -472,8 +473,10 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 # terminal
 bindsym $mod+Return exec --no-startup-id termite;focus
+bindsym $mod+KP_Enter exec --no-startup-id termite;focus
 bindsym control+mod1+t exec --no-startup-id termite; focus
 bindsym control+mod1+Return exec --no-startup-id termite; focus
+bindsym control+mod1+KP_Enter exec --no-startup-id termite; focus
 
 #System monitor
 bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
@@ -544,6 +547,7 @@ bindsym $mod+F7 exec --no-startup-id virtualbox;focus
 for_window [class="Thunar"] focus
 bindsym $mod+F8 exec --no-startup-id thunar;focus
 bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
+bindsym $mod+Shift+KP_Enter exec --no-startup-id thunar;focus
 bindsym control+mod1+b exec --no-startup-id thunar;focus
 
 #workspace 9 related
