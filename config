@@ -458,7 +458,6 @@ exec --no-startup-id conky -c ~/.config/i3/system-overview
 #################                                 system applications                               #################
 #####################################################################################################################
 
-exec --no-startup-id thunar --daemon &
 exec --no-startup-id xfce4-power-manager &
 # ommitted next line to get super key to bring up the menu in xfce and avoid error then in i3
 # IF xfsettingsd is activated you can not change themes
