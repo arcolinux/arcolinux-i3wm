@@ -511,6 +511,9 @@ bindsym control+mod1+u exec --no-startup-id pavucontrol
 #arcolinux does not seem to work
 bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
 
+#pamac-manager
+bindsym control+mod1+p exec --no-startup-id pamac-manager
+
 
 
 #workspace related
