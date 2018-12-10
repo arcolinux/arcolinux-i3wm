@@ -514,7 +514,8 @@ bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
 #pamac-manager
 bindsym control+mod1+p exec --no-startup-id pamac-manager
 
-
+#xkill
+bindsym --release $mod+Escape exec --no-startup-id xkill
 
 #workspace related
 
