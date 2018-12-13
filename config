@@ -854,6 +854,8 @@ bar {
     #position top
     position bottom
 
+    #system icons
+    #tray_output none
     #tray_output $firstMonitor
     #tray_output $secondMonitor
 
