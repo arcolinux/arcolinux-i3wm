@@ -66,24 +66,28 @@ set $right semicolon
 # xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 #exec --no-startup-id xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #exec --no-startup-id xrandr --output DVI-I-0 --right-of HDMI-0 --auto
+#exec --no-startup-id xrandr --output DVI-1 --right-of DVI-0 --auto
+#exec --no-startup-id xrandr --output DVI-D-1 --right-of DVI-I-1 --auto
 exec --no-startup-id xrandr --output HDMI2 --right-of HDMI1 --auto
 
 
 # my current setup
-set $firstMonitor HDMI1
-set $secondMonitor HDMI2
 
-#set $firstMonitor LVDS1
+#set $firstMonitor DP3
 #set $secondMonitor LVDS1
 
-#set $firstMonitor DVI-I-2
-#set $secondMonitor VGA-0
+#set $firstMonitor DVI-I-0
+#set $secondMonitor HDMI-0
 
-#set $firstMonitor DVI-I-2
-#set $secondMonitor DVI-I-3
 
 #set $firstMonitor DVI-0
 #set $secondMonitor DVI-1
+
+#set $firstMonitor DVI-I-1
+#set $secondMonitor DVI-D-1
+
+set $firstMonitor HDMI1
+set $secondMonitor HDMI2
 
 workspace 1 output $firstMonitor
 workspace 2 output $firstMonitor
