@@ -477,7 +477,7 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 #not workspace related
 
 #conky
-bindsym $mod+c exec --no-startup-id conky-toggle
+#bindsym $mod+c exec --no-startup-id conky-toggle
 
 # terminal
 bindsym $mod+Return exec --no-startup-id termite;focus
