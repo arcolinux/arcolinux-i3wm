@@ -407,7 +407,7 @@ for_window [class="Vivaldi-stable"] focus
 #exec --no-startup-id atom
 
 #file manager
-exec --no-startup-id thunar
+#exec --no-startup-id thunar
 
 #Mail clients
 #exec --no-startup-id evolution
