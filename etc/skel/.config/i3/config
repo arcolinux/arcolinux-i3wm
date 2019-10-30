@@ -877,7 +877,7 @@ bar {
     # Second one is the standard statusbar with my personal settings
 
 	#status_command i3status
-	#status_command i3status -c ~/.config/i3/i3status.conf
+	status_command i3status -c ~/.config/i3/i3status.conf
 
 
 
@@ -888,7 +888,7 @@ bar {
     # put hastag in front if not installed
 
 	#status_command i3blocks
-	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	#status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	#status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
 	#status_command i3blocks -c ~/.config/i3/i3blocks-original.conf
 	#status_command i3blocks -c ~/.config/i3/i3blocks-awesome.conf
