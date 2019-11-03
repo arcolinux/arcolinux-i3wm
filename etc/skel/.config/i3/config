@@ -487,6 +487,7 @@ bindsym $mod+KP_Enter exec --no-startup-id termite;focus
 bindsym control+mod1+t exec --no-startup-id termite; focus
 bindsym control+mod1+Return exec --no-startup-id termite; focus
 bindsym control+mod1+KP_Enter exec --no-startup-id termite; focus
+bindsym F12 exec --no-startup-id xfce4-terminal --drop-down; focus
 
 #System monitor
 bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
