@@ -500,7 +500,7 @@ bindsym control+mod1+c exec --no-startup-id catfish;focus
 
 #slimlock
 #arcolinux conflict
-#bindsym $mod+k exec slimlock
+bindsym Mod1+k exec slimlock
 #use super + X to get to slimlock
 
 #rofi theme selector
