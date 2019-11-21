@@ -845,7 +845,7 @@ mode "$mode_gaps_outer" {
 #####################################################################################################################
 
 #if you want transparency on non-focused windows, ...
-exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
+exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
 
 
 
