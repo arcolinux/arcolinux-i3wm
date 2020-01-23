@@ -449,7 +449,7 @@ exec_always --no-startup-id numlockx on
 exec --no-startup-id volumeicon
 
 #variety
-exec --no-startup-id variety
+#exec --no-startup-id variety
 
 # clipman
 #exec --no-startup-id xfce4-clipman
