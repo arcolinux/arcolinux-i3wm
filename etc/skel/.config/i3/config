@@ -393,10 +393,13 @@ font pango:Noto Mono Regular 13
 
 
 #####################################################################################################################
-#################                          execute applications at boot time                        #################
+#################           autostart   -    execute applications at boot time                      #################
 #####################################################################################################################
 
 # USER APPLICATIONS TO START AT BOOT
+
+# ArcoLinux Welcome App
+exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 #browser
 #exec --no-startup-id vivaldi-stable
@@ -606,6 +609,8 @@ bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 
 #floating enabled from some programs - find with xprop
 
+for_window [class="Arcolinux-welcome-app.py"] floating enable
+for_window [class="Arcolinux-tweak-tool.py"] floating enable
 for_window [class="Bleachbit"] floating disable
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Brasero"] floating disable
