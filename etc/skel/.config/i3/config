@@ -479,6 +479,12 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 #not workspace related
 
+#ArcoLinux Welcome App
+bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
+
+#ArcoLinux Tweak Tool
+bindsym control+mod1+e exec --no-startup-id arcolinux-tweak-tool
+
 #conky
 bindsym $mod+c exec --no-startup-id conky-toggle
 bindsym control+mod1+Next exec --no-startup-id conky-rotate -n
@@ -543,7 +549,6 @@ bindsym control+mod1+g exec --no-startup-id chromium;focus
 #workspace 2 related
 #bindsym $mod+F2 exec --no-startup-id geany;focus
 bindsym $mod+F2 exec --no-startup-id atom;focus
-bindsym control+mod1+w exec --no-startup-id geany;focus
 
 #workspace 3 related
 bindsym $mod+F3 exec --no-startup-id inkscape;focus
@@ -570,7 +575,6 @@ bindsym control+mod1+b exec --no-startup-id thunar;focus
 
 #workspace 9 related
 bindsym $mod+F9 exec --no-startup-id evolution;focus
-bindsym control+mod1+e exec --no-startup-id evolution;focus
 #bindsym $mod+F9 exec --no-startup-id geary;focus
 #bindsym control+mod1+e exec --no-startup-id geary;focus
 
