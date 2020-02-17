@@ -19,8 +19,8 @@
         # Windows decoration colors
         # class                   border  backgr. text    indicator
         client.background color         #222222
-        client.focused          #FFAF00 #FFAF00 #333333 #00AA00
-        client.unfocused        #222222 #222222 #aaaaaa #2e9ef4
+        client.focused          #FFAF00 #FFAF00 #333333 #FFAF00
+        client.unfocused        #222222 #222222 #aaaaaa #222222
         client.focused_inactive #333333 #5f676a #ffffff #484e50
         client.urgent           #2f343a #900000 #ffffff #900000
 

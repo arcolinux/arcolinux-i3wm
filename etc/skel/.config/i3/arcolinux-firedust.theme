@@ -19,7 +19,7 @@
         #Windows decoration colors
         #https://github.com/Blueblur/dotfiles/blob/master/.i3/config
         #class                 border  backgr. text    indicator
-        client.focused          #d64937 #d64937 #2D2D2D #2e9ef4
+        client.focused          #d64937 #d64937 #2D2D2D #d64937
         client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #484e50
         client.unfocused        #2D2D2D #2d2d2d #dcdcdc #292d2e
         client.urgent           #2D2D2D #2D2D2D #dcdcdc #900000

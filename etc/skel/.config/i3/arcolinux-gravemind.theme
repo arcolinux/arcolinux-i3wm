@@ -18,7 +18,7 @@
       # BLue and grey Colors
       # https://github.com/Gravemind/ArchLinux/blob/master/.i3/config
       # class                   border  backgr. text    indicator
-      client.focused          #000000 #285577 #dddddd #0099ff
+      client.focused          #000000 #285577 #dddddd #285577
       client.focused_inactive #000000 #333333 #888888 #484e50
       client.unfocused        #000000 #000000 #555555 #292d2e
       client.urgent           #2f343a #900000 #ffffff #900000
