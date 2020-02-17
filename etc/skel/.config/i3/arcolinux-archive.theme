@@ -1,0 +1,27 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Archive
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+        # Blue-green background - orange text
+        # Windows decoration colors
+        # http://www.fastlinux.eu/_archiv/index.php?page=linux047
+        # class                    border  backgr. text
+        client.focused           #2B6473 #2B6473 #FFA000
+        client.focused_inactive  #004050 #004050 #FFA000
+        client.unfocused         #004050 #004050 #cccccc
+        client.urgent            #900000 #900000 #ffffff
+
+      ##STOP THEMING

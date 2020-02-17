@@ -1,0 +1,27 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Gravemind
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+      # BLue and grey Colors
+      # https://github.com/Gravemind/ArchLinux/blob/master/.i3/config
+      # class                   border  backgr. text    indicator
+      client.focused          #000000 #285577 #dddddd #0099ff
+      client.focused_inactive #000000 #333333 #888888 #484e50
+      client.unfocused        #000000 #000000 #555555 #292d2e
+      client.urgent           #2f343a #900000 #ffffff #900000
+      client.placeholder      #000000 #0c0c0c #ffffff #000000
+
+      ##STOP THEMING

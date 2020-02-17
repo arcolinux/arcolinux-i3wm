@@ -1,0 +1,27 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Firedust
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+        # Red background - black text
+        #Windows decoration colors
+        #https://github.com/Blueblur/dotfiles/blob/master/.i3/config
+        #class                 border  backgr. text    indicator
+        client.focused          #d64937 #d64937 #2D2D2D #2e9ef4
+        client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #484e50
+        client.unfocused        #2D2D2D #2d2d2d #dcdcdc #292d2e
+        client.urgent           #2D2D2D #2D2D2D #dcdcdc #900000
+
+      ##STOP THEMING

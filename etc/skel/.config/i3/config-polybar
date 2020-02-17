@@ -880,81 +880,6 @@ client.focused_inactive #222222 #222222 #a9a9a9 #222222
 client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 
 
-#################################################################
-################### BAR APPEARANCE ARCHIVE ######################
-#################################################################
-
-# Orange background with black text - not focus grey background - white text
-# Windows decoration colors
-# class                   border  backgr. text    indicator
-# client.background color         #222222
-# client.focused          #FFAF00 #FFAF00 #333333 #00AA00
-# client.unfocused        #222222 #222222 #aaaaaa #2e9ef4
-# client.focused_inactive #333333 #5f676a #ffffff #484e50
-# client.urgent           #2f343a #900000 #ffffff #900000
-
-
-# DarkGrey background with white text - not focus grey background - black text
-# Windows decoration colors
-# https://i3wm.org/docs/userguide.html#_changing_colors
-# client.background color
-# class                   border  backgr. text    indicator
-# client.focused          #4c7899 #285577 #ffffff #2e9ef4
-# client.focused_inactive #333333 #5f676a #ffffff #484e50
-# client.unfocused        #333333 #222222 #888888 #292d2e
-# client.urgent           #2f343a #900000 #ffffff #900000
-# client.placeholder      #000000 #0c0c0c #ffffff #000000
-
-#   colors {
-#            background #222222
-#            statusline #eeeeee
-#            separator #666666
-             #                  border  backgr. text
-#            focused_workspace  #4c7899 #285577 #ffffff
-#            active_workspace   #333333 #5f676a #ffffff
-#            inactive_workspace #333333 #222222 #888888
-#            urgent_workspace   #2f343a #900000 #ffffff
-#            }
-
-# Alternatives
-# BLue and grey Colors
-# https://github.com/Gravemind/ArchLinux/blob/master/.i3/config
-# class                   border  backgr. text    indicator
-# client.focused          #000000 #285577 #dddddd #0099ff
-# client.focused_inactive #000000 #333333 #888888 #484e50
-# client.unfocused        #000000 #000000 #555555 #292d2e
-# client.urgent           #2f343a #900000 #ffffff #900000
-
-# blue background with white text
-# Windows decoration colors
-# class                   border  backgr. text    indicator
-# client.background color         #222222
-# client.focused          #4c7899 #285577 #ffffff #2e9ef4
-# client.focused_inactive #333333 #5f676a #ffffff #484e50
-# client.unfocused        #333333 #222222 #888888 #292d2e
-# client.urgent           #2f343a #900000 #ffffff #900000
-
-# Blue-green background - orange text
-# Windows decoration colors
-# http://www.fastlinux.eu/_archiv/index.php?page=linux047
-# class                    border  backgr. text
-# client.focused           #2B6473 #2B6473 #FFA000
-# client.focused_inactive  #004050 #004050 #FFA000
-# client.unfocused         #004050 #004050 #cccccc
-# client.urgent            #900000 #900000 #ffffff
-
-
-# Red background - black text
-# Windows decoration colors
-# https://github.com/Blueblur/dotfiles/blob/master/.i3/config
-# class                 border  backgr. text    indicator
-# client.focused          #d64937 #d64937 #2D2D2D #2e9ef4
-# client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #484e50
-# client.unfocused        #2D2D2D #2d2d2d #dcdcdc #292d2e
-# client.urgent           #2D2D2D #2D2D2D #dcdcdc #900000
-
-
-
 
 #####################################################################################################################
 #####################################################################################################################
@@ -967,8 +892,6 @@ client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 #####################################################################################################################
 #####################################################################################################################
 #####################################################################################################################
-
-
 
 
 

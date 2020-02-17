@@ -1,0 +1,28 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Default
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+        # DarkGrey background with white text - not focus grey background - black text
+        # Windows decoration colors
+        # class                 border  backgr. text    indicator
+        client.placeholder      #242424 #242424 #242424
+        client.background       #242424 #242424 #242424
+        client.focused          #6790EB #6790EB #e5e5e5 #6790EB
+        client.unfocused        #222222 #222222 #aaaaaa #222222
+        client.focused_inactive #222222 #222222 #a9a9a9 #222222
+        client.urgent           #d42121 #d42121 #f7f7f7 #d42121
+
+      ##STOP THEMING

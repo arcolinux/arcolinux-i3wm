@@ -1,0 +1,27 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Sunset
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+        # Orange background with black text - not focus grey background - white text
+        # Windows decoration colors
+        # class                   border  backgr. text    indicator
+        client.background color         #222222
+        client.focused          #FFAF00 #FFAF00 #333333 #00AA00
+        client.unfocused        #222222 #222222 #aaaaaa #2e9ef4
+        client.focused_inactive #333333 #5f676a #ffffff #484e50
+        client.urgent           #2f343a #900000 #ffffff #900000
+
+      ##STOP THEMING

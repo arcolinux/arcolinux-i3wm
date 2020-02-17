@@ -1,0 +1,27 @@
+    ##START THEMING
+    #Theme name : ArcoLinux Mastermind
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+        #                     border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        }
+
+    }
+
+
+        # blue background with white text
+        # Windows decoration colors
+        # class                   border  backgr. text    indicator
+        client.background color         #222222
+        client.focused          #4c7899 #285577 #ffffff #2e9ef4
+        client.focused_inactive #333333 #5f676a #ffffff #484e50
+        client.unfocused        #333333 #222222 #888888 #292d2e
+        client.urgent           #2f343a #900000 #ffffff #900000
+
+      ##STOP THEMING
