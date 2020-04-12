@@ -1,11 +1,15 @@
     ##START THEMING
     #Theme name : ArcoLinux Firedust
 
+    # i3 bar colors
+    # variable border background Text
+
     colors {
         background #2F2F2F
         statusline #eeeeee
         separator  #666666
-        #                     border  backgr. text
+
+        # colorclass           border  backgr. text
         focused_workspace     #a9a9a9 #5f676a #eeeeee
         active_workspace      #a9a9a9 #5f676a #a9a9a9
         inactive_workspace    #a9a9a9 #222222 #a9a9a9
@@ -14,14 +18,14 @@
 
     }
 
+    # Window color settings
+    # class                 border  backgr. text    indicator
+    client.focused          #d64937 #d64937 #2D2D2D #d64937
+    client.unfocused        #2D2D2D #2d2d2d #dcdcdc #292d2e
+    client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #484e50
+    client.placeholder      #2d2d2d #2d2d2d #dcdcdc #484e502
+    client.urgent           #2D2D2D #2D2D2D #dcdcdc #900000
 
-        # Red background - black text
-        #Windows decoration colors
-        #https://github.com/Blueblur/dotfiles/blob/master/.i3/config
-        #class                 border  backgr. text    indicator
-        client.focused          #d64937 #d64937 #2D2D2D #d64937
-        client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #484e50
-        client.unfocused        #2D2D2D #2d2d2d #dcdcdc #292d2e
-        client.urgent           #2D2D2D #2D2D2D #dcdcdc #900000
+    client.background       #242424
 
-      ##STOP THEMING
+    ##STOP THEMING

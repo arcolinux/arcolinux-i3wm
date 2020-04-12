@@ -1,28 +1,28 @@
     ##START THEMING
-    #Theme name : ArcoLinux Default
+    #Theme name : ArcoLinux Ruins
 
     # i3 bar colors
     # variable border background Text
 
     colors {
-        background #2F2F2F
-        statusline #eeeeee
-        separator  #666666
+        background #303030
+        statusline #d0e1d4
+        separator  #c1d0c1
 
         # colorclass           border  backgr. text
-        focused_workspace     #a9a9a9 #5f676a #eeeeee
-        active_workspace      #a9a9a9 #5f676a #eeeeee
-        inactive_workspace    #a9a9a9 #222222 #a9a9a9
-        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        focused_workspace     #FF6F54 #FF6F54 #FFF2CE
+        active_workspace      #FF6F54 #FF6F54 #FFF2CE
+        inactive_workspace    #64635f #64635f #a7afa9
+        urgent_workspace      #e82951 #e82951 #FFF2CE
         }
 
     }
 
     # Window color settings
     # class                 border  backgr. text    indicator
-    client.focused          #6790EB #6790EB #e5e5e5 #6790EB
+    client.focused          #FF6F54 #FF6F54 #e5e5e5 #FF6F54
     client.unfocused        #222222 #222222 #aaaaaa #222222
-    client.focused_inactive #222222 #222222 #a9a9a9 #222222
+    client.focused_inactive #222222 #222222 #aaaaaa #222222
     client.placeholder      #222222 #222222 #aaaaaa #222222
     client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 

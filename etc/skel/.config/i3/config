@@ -151,7 +151,7 @@ bindsym $mod+F12 exec --no-startup-id rofi -show run -font "Noto Sans 13"
 #################                          how to exit, logoff, suspend, ...                        #################
 #####################################################################################################################
 
-
+# current code
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -174,6 +174,11 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
+
+# Future code
+#bindsym $mod+Shift+e exec --no-startup-id arcolinux-logout
+#bindsym $mod+X exec --no-startup-id arcolinux-logout
+#bindsym control+mod1+Delete --no-startup-id arcolinux-logout
 
 
 #####################################################################################################################
@@ -610,7 +615,7 @@ bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 #floating enabled from some programs - find with xprop
 
 for_window [class="Arcolinux-welcome-app.py"] floating enable
-for_window [class="Arcolinux-tweak-tool.py"] floating enable
+#for_window [class="Arcolinux-tweak-tool.py"] floating enable
 for_window [class="Bleachbit"] floating disable
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Brasero"] floating disable
@@ -928,33 +933,34 @@ bar {
     ##START THEMING
     #Theme name : ArcoLinux Default
 
+    # i3 bar colors
+    # variable border background Text
+
     colors {
         background #2F2F2F
         statusline #eeeeee
         separator  #666666
-        #                     border  backgr. text
+
+        # colorclass           border  backgr. text
         focused_workspace     #a9a9a9 #5f676a #eeeeee
-        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        active_workspace      #a9a9a9 #5f676a #eeeeee
         inactive_workspace    #a9a9a9 #222222 #a9a9a9
         urgent_workspace      #a9a9a9 #d42121 #FFFFFF
         }
 
     }
 
+    # Window color settings
+    # class                 border  backgr. text    indicator
+    client.focused          #6790EB #6790EB #e5e5e5 #6790EB
+    client.unfocused        #222222 #222222 #aaaaaa #222222
+    client.focused_inactive #222222 #222222 #a9a9a9 #222222
+    client.placeholder      #222222 #222222 #aaaaaa #222222
+    client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 
-        # DarkGrey background with white text - not focus grey background - black text
-        # Windows decoration colors
-        # class                 border  backgr. text    indicator
-        client.placeholder      #242424 #242424 #242424
-        client.background       #242424 #242424 #242424
-        client.focused          #6790EB #6790EB #e5e5e5 #6790EB
-        client.unfocused        #222222 #222222 #aaaaaa #222222
-        client.focused_inactive #222222 #222222 #a9a9a9 #222222
-        client.urgent           #d42121 #d42121 #f7f7f7 #d42121
+    client.background       #242424
 
-      ##STOP THEMING
-
-
+    ##STOP THEMING
 
 #####################################################################################################################
 #####################################################################################################################

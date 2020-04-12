@@ -5,15 +5,15 @@
     # variable border background Text
 
     colors {
-        background #2F2F2F
-        statusline #eeeeee
+        background #000000
+        statusline #ffffff
         separator  #666666
 
         # colorclass           border  backgr. text
-        focused_workspace     #a9a9a9 #5f676a #eeeeee
-        active_workspace      #a9a9a9 #5f676a #eeeeee
-        inactive_workspace    #a9a9a9 #222222 #a9a9a9
-        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
+        focused_workspace     #008fff #007fff #ffffff
+        active_workspace      #333333 #5f676a #ffffff
+        inactive_workspace    #333333 #222222 #888888
+        urgent_workspace      #aa0000 #990000 #ffffff
         }
 
     }
