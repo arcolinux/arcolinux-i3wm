@@ -178,7 +178,7 @@ mode "$mode_system" {
 # Future code
 #bindsym $mod+Shift+e exec --no-startup-id arcolinux-logout
 #bindsym $mod+X exec --no-startup-id arcolinux-logout
-#bindsym control+mod1+Delete --no-startup-id arcolinux-logout
+#bindsym mod1+control+Delete exec --no-startup-id arcolinux-logout
 
 
 #####################################################################################################################
