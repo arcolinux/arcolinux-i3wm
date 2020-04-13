@@ -11,7 +11,7 @@
 
         # colorclass           border  backgr. text
         focused_workspace     #657b83 #073642 #eee8d5
-        active_workspace      #eee8d5 #eee8d5 #eee8d5
+        active_workspace      #eee8d5 #657b83 #eee8d5
         inactive_workspace    #657b83 #657b83 #eee8d5
         urgent_workspace      #657b83 #d42121 #eee8d5
         }
