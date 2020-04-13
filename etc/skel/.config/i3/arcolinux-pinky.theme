@@ -6,8 +6,8 @@
 
     colors {
         background #2F3D44
-        separator  #454947
         statusline #F9FAF9
+        separator  #454947
 
         # colorclass           border  backgr. text
         focused_workspace     #F9FAF9 #e82951 #F9FAF9
