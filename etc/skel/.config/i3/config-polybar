@@ -722,7 +722,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 20 # decrease
 
 
 # bar toggle, hide or show
-bindsym $mod+b bar mode toggle
+bindsym $mod+b exec --no-startup-id ~/.config/i3/scripts/toggle_bar.sh
 
 
 #####################################################################################################################
