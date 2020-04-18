@@ -924,7 +924,7 @@ bar {
     }
     ##STOP THEMING BAR
 
-    ## START THEMING WM
+    ##START THEMING WM
 
     # Window color settings
     # class                 border  backgr. text    indicator
