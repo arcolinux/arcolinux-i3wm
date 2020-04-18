@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Solar
 
     # i3 bar colors
@@ -17,7 +17,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #eee8d5 #eee8d5 #073642 #eee8d5
@@ -26,6 +29,6 @@
     client.placeholder      #073642 #073642 #eee8d5 #073642
     client.urgent           #657b83 #d42121 #eee8d5 #d42121
 
-    client.background       #073642
+    client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM

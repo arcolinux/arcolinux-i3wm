@@ -923,7 +923,7 @@ bar {
     # in order for the system trayicons to show up in polybar
 
 
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Default
 
     # i3 bar colors
@@ -942,6 +942,9 @@ bar {
         }
 
     }
+    ##STOP THEMING BAR
+
+    ## START THEMING WM
 
     # Window color settings
     # class                 border  backgr. text    indicator
@@ -953,7 +956,7 @@ bar {
 
     client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM
 
 #####################################################################################################################
 #####################################################################################################################

@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Sunset
 
     # i3 bar colors
@@ -17,7 +17,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #FFAF00 #FFAF00 #333333 #FFAF00
@@ -26,6 +29,6 @@
     client.placeholder      #222222 #222222 #aaaaaa #222222
     client.urgent           #d42121 #d42121 #ffffff #d42121
 
-    client.background       #222222
+    client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM

@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Mastermind
 
     # i3 bar colors
@@ -17,7 +17,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #4c7899 #4c7899 #ffffff #4c7899
@@ -26,6 +29,6 @@
     client.placeholder      #333333 #222222 #888888 #292d2e
     client.urgent           #900000 #900000 #ffffff #900000
 
-    client.background       #222222
+    client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM

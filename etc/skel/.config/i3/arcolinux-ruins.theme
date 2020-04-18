@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Ruins
 
     # i3 bar colors
@@ -17,7 +17,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #FF6F54 #FF6F54 #e5e5e5 #FF6F54
@@ -28,4 +31,4 @@
 
     client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM

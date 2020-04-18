@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Zion
 
     # i3 bar colors
@@ -37,7 +37,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class  border background text indicator
 
@@ -63,4 +66,4 @@
     # the color. Note that this colorclass only takes a single color.
     client.background       #000000
 
-    ##STOP THEMING
+    ##STOP THEMING WM

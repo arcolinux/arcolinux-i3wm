@@ -1,5 +1,5 @@
-    ##START THEMING
-    #Theme name : ArcoLinux Gravemind
+    ##START THEMING BAR
+    #Theme name : ArcoLinux Archive
 
     # i3 bar colors
     # variable border background Text
@@ -17,7 +17,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #3c5bcb #3c5bcb #dddddd #3c5bcb
@@ -28,4 +31,4 @@
 
     client.background       #242424
 
-    ##STOP THEMING
+    ##STOP THEMING WM

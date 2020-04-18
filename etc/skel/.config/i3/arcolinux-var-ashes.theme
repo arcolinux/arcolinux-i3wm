@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Var Ashes
 
     # i3 bar colors
@@ -32,8 +32,12 @@
         inactive_workspace    $base03 $base01 $base05
         urgent_workspace      $base08 $base08 $base00
         }
-    }
 
+    }
+    ##STOP THEMING BAR
+
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          $base05 $base0D $base00 $base0
@@ -44,4 +48,4 @@
 
     client.background       $base07
 
-    ##STOP THEMING
+    ##STOP THEMING WM

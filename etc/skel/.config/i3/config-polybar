@@ -845,7 +845,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 #####################################################################################################################
 #####################################################################################################################
 
-##START THEMING POLYBAR CONFIG
+##START THEMING WM
 
   # class                 border  backgr. text    indicator
   client.placeholder      #242424 #242424 #242424
@@ -855,7 +855,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
   client.focused_inactive #222222 #222222 #a9a9a9 #222222
   client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 
- ##STOP THEMING POLYBAR CONFIG
+##STOP THEMING WM
 
 #####################################################################################################################
 #####################################################################################################################

@@ -1,4 +1,4 @@
-    ##START THEMING
+    ##START THEMING BAR
     #Theme name : ArcoLinux Var Nord
 
     # i3 bar colors
@@ -37,7 +37,10 @@
         }
 
     }
+    ##STOP THEMING BAR
 
+    ##START THEMING WM
+    
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          $nord15 $nord15 $nord4  $nord15
@@ -48,4 +51,4 @@
 
     client.background       $nord04
 
-    ##STOP THEMING
+    ##STOP THEMING WM
