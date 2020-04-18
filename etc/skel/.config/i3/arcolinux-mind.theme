@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Mind
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #556064 #556064 #80FFF9 #FDF6E3

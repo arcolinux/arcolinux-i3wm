@@ -945,6 +945,7 @@ bar {
     ##STOP THEMING BAR
 
     ##START THEMING WM
+    #Theme name : ArcoLinux Default
 
     # Window color settings
     # class                 border  backgr. text    indicator

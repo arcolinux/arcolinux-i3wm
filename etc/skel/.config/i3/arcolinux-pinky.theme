@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Pinky from ArcoLinux Coritani
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #FFB6C1 #FFB6C1 #e82951 #FDF6E3

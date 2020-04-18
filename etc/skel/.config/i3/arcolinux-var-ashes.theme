@@ -37,7 +37,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Var Ashes
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          $base05 $base0D $base00 $base0

@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Mater
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #a9a9a9 #a9a9a9 #e5e5e5 #a9a9a9

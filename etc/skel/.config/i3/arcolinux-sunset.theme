@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Sunset
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #FFAF00 #FFAF00 #333333 #FFAF00

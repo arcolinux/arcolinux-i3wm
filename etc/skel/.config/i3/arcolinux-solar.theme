@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Solar
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #eee8d5 #eee8d5 #073642 #eee8d5

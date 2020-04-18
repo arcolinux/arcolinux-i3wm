@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Firedust
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #d64937 #d64937 #2D2D2D #d64937

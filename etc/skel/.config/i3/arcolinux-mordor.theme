@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Mordor
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #eeae0a #eeae0a #ffffff #eeae0a

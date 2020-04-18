@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Mango
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #242424 #fdb95b #ffffff #fdb95b

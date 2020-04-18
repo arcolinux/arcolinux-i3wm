@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Ruins
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #FF6F54 #FF6F54 #e5e5e5 #FF6F54

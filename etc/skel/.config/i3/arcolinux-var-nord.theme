@@ -40,7 +40,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Var Nord
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          $nord15 $nord15 $nord4  $nord15

@@ -20,7 +20,8 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    
+    #Theme name : ArcoLinux Archive    
+
     # Window color settings
     # class                 border  backgr. text    indicator
     client.focused          #2B6473 #2B6473 #FFA000 #004050
