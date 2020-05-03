@@ -381,6 +381,9 @@ font pango:Noto Mono Regular 13
 # ArcoLinux Welcome App
 exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
+# Autotiling
+exec_always --no-startup-id autotiling
+
 #browser
 #exec --no-startup-id vivaldi-stable
 for_window [class="Vivaldi-stable"] focus
