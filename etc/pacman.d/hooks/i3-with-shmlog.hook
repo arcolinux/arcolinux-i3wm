@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = i3-gaps
+
+[Action]
+Description = Avoid confusion in xsessions
+When = PostTransaction
+Exec = /bin/sh -c "cp /usr/share/xsessions/i3.desktop /usr/share/xsessions/i3-with-shmlog.desktop"
