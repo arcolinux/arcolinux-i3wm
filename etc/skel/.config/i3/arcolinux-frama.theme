@@ -1,5 +1,5 @@
     ##START THEMING BAR
-    #Theme name : ArcoLinux Default
+    #Theme name : ArcoLinux Frama
 
     # i3 bar colors
     # variable border background Text
@@ -20,7 +20,7 @@
     ##STOP THEMING BAR
 
     ##START THEMING WM
-    #Theme name : ArcoLinux Default
+    #Theme name : ArcoLinux Frama
 
     # Window color settings
     # class                 border  backgr. text    indicator
