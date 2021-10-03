@@ -627,7 +627,7 @@ bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
 # changing border style
 # super+t in arcolinux is starting terminal
 bindsym $mod+t border normal
-bindsym $mod+y border 1pixel
+bindsym $mod+y border pixel 1
 bindsym $mod+u border none
 
 # new_window pixel 1
