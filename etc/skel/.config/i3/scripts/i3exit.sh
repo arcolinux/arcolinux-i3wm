@@ -3,7 +3,7 @@
 
 case "$1" in
     lock)
-        betterlockscreen -l dimblur -- --timestr="%H:%M"
+        betterlockscreen -l dimblur -- --time-str="%H:%M"
         ;;
     logout)
         i3-msg exit
