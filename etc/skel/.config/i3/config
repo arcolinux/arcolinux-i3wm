@@ -115,7 +115,7 @@ bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
 # bindsym mod1+F5 exec --no-startup-id xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv
 
 # start rofi full
-bindsym $mod+F11 exec --no-startup-id rofi -show drun -fullscreen -font "Noto Sans 13"
+bindsym $mod+F11 exec --no-startup-id rofi -theme-str 'window {width: 100%;height: 100%;}' -show drun -font "Noto Sans 13"
 
 # start rofi small
 bindsym $mod+F12 exec --no-startup-id rofi -show drun -font "Noto Sans 13"
