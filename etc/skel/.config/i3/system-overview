@@ -136,7 +136,7 @@ ${color1}[Alt]+F3${alignr}${color2}Alt Menu${color}
 ${color1}${hr}${color}
 ${color1}[S]+Enter${alignr}${color2}Terminal${color}
 ${color1}[S]+[Shift]+Enter${alignr}${color2}File Manager${color}
-${color1}[S]+F1${alignr}${color2}Vivaldi${color}
+${color1}[S]+F1${alignr}${color2}Firefox${color}
 ${color1}[S]+F2${alignr}${color2}Editor${color}
 ${color1}[S]+F6${alignr}${color2}Media Player${color}
 ${color1}[Ctrl]+[Shift]+Esc${alignr}${color2}Task Manager${color}
