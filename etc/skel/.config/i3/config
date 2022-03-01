@@ -45,8 +45,8 @@ exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto
 
 # current setup
 
-set $firstMonitor HDMI-0
-set $secondMonitor DP0
+set $firstMonitor HDMI-1
+set $secondMonitor HDMI-2
 
 # Other Examples
 
@@ -508,6 +508,7 @@ bindsym control+mod1+s exec --no-startup-id spotify;focus
 bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 bindsym Control+Print exec --no-startup-id xfce4-screenshooter
 bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
+bindsym $mod+Control+Print exec --no-startup-id flameshot gui
 # bindsym shift+Print exec --no-startup-id shutter
 
 ################# floating or tiled rules         
