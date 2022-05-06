@@ -141,8 +141,8 @@ mode "$mode_system" {
 }
 
 # ArcoLinux Logout
-bindsym $mod+Shift+e exec --no-startup-id arcolinux-logout
-bindsym $mod+X exec --no-startup-id arcolinux-logout
+bindsym $mod+Shift+e exec --no-startup-id archlinux-logout
+bindsym $mod+X exec --no-startup-id archlinux-logout
 
 ################# reload changed configuration     
 
@@ -431,9 +431,9 @@ bindsym control+mod1+m exec --no-startup-id xfce4-settings-manager
 # catfish
 bindsym control+mod1+c exec --no-startup-id catfish;focus
 
-# arcolinux-logout
-bindsym control+mod1+k exec --no-startup-id arcolinux-logout
-bindsym control+mod1+l exec --no-startup-id arcolinux-logout
+# archlinux-logout
+bindsym control+mod1+k exec --no-startup-id archlinux-logout
+bindsym control+mod1+l exec --no-startup-id archlinux-logout
 
 # rofi theme selector
 bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
