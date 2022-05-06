@@ -406,7 +406,7 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 # ArcoLinux Welcome App
 bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
 
-# ArcoLinux Tweak Tool
+# ArchLinux Tweak Tool
 bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 
 # conky

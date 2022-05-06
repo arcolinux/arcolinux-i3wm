@@ -399,14 +399,14 @@ exec --no-startup-id xfce4-power-manager &
 # exec --no-startup-id xfsettingsd &
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
-################# applications keyboard shortcuts  
+#####s############ applications keyboard shortcuts  
 
 # not workspace related
 
 # ArcoLinux Welcome App
 bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
 
-# ArcoLinux Tweak Tool
+# ArchLinux Tweak Tool
 bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 
 # conky
