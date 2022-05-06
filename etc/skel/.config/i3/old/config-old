@@ -485,7 +485,7 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
 
 #ArcoLinux Tweak Tool
-bindsym control+mod1+e exec --no-startup-id arcolinux-tweak-tool
+bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 
 #conky
 bindsym $mod+c exec --no-startup-id conky-toggle
@@ -609,7 +609,7 @@ bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 #floating enabled from some programs - find with xprop
 
 for_window [class="Arcolinux-welcome-app.py"] floating enable
-#for_window [class="Arcolinux-tweak-tool.py"] floating enable
+#for_window [class="Archlinux-tweak-tool.py"] floating enable
 for_window [class="Bleachbit"] floating disable
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Brasero"] floating disable
