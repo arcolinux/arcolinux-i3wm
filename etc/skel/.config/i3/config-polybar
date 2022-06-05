@@ -43,6 +43,20 @@ exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto
 # exec --no-startup-id xrandr --output DVI-D-1 --right-of DVI-I-1 --auto
 # exec --no-startup-id xrandr --output HDMI-2 --right-of HDMI-1 --auto
 
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+# using names instead of numbers for the workspaces
+# set $ws1 "1: Terminal"
+# set $ws2 "2: Browser"
+# set $ws3 "3: Mail"
+# set $ws4 "4: File Manager"
+
+# switch to workspace
+#bindsym $mod+1 workspace $ws1
+#bindsym $mod+2 workspace $ws2
+#bindsym $mod+3 workspace $ws3
+#bindsym $mod+4 workspace $ws4
+
 # current setup
 
 set $firstMonitor HDMI-1
@@ -401,7 +415,7 @@ exec --no-startup-id xfce4-power-manager &
 # exec --no-startup-id xfsettingsd &
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
-#####s############ applications keyboard shortcuts  
+################# applications keyboard shortcuts  
 
 # not workspace related
 
