@@ -427,6 +427,7 @@ bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 
 # conky
 bindsym $mod+c exec --no-startup-id conky-toggle
+bindsym $mod+control+c exec --no-startup-id killall conky
 bindsym control+mod1+Next exec --no-startup-id conky-rotate -n
 bindsym control+mod1+Prior exec --no-startup-id conky-rotate -p
 
