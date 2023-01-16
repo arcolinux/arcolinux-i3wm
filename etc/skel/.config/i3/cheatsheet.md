@@ -1,4 +1,4 @@
-# Hyprland CheatSheet #
+# CheatSheet #
 
   Super = Windows Key
 
