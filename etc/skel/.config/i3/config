@@ -515,8 +515,8 @@ bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
 bindsym $mod+Shift+KP_Enter exec --no-startup-id thunar;focus
 bindsym control+mod1+b exec --no-startup-id thunar;focus
 
-# mail application
-bindsym $mod+F9 exec --no-startup-id evolution;focus
+# Audio application
+bindsym $mod+F9 exec --no-startup-id lollypop;focus
 # bindsym $mod+F9 exec --no-startup-id geary;focus
 # bindsym control+mod1+e exec --no-startup-id geary;focus
 
