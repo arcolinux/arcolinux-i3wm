@@ -160,7 +160,6 @@ mode "$mode_system" {
 # ArcoLinux Logout
 bindsym $mod+Shift+e exec --no-startup-id archlinux-logout
 bindsym $mod+X exec --no-startup-id archlinux-logout
-archlinux-logout
 bindsym $mod+Shift+X exec --no-startup-id arcolinux-powermenu
 
 ################# reload changed configuration     
