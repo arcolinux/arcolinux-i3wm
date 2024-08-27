@@ -306,7 +306,7 @@ font pango:Noto Mono Regular 13
 
 # Workspace 2 text editor related
 # assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 2
-# assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                                   → 2
+# assign [class="Xed|xed|Brackets|Code|Code|Geany"]                                   → 2
 
 # Workspace 3 Inkscape
 # assign [class="Inkscape"]                                                           → 3
@@ -352,7 +352,7 @@ for_window [class="Vivaldi-stable"] focus
 
 # Text-editor
 # exec --no-startup-id geany
-# exec --no-startup-id atom
+# exec --no-startup-id code
 
 # File manager
 # exec --no-startup-id thunar
@@ -491,7 +491,7 @@ bindsym control+mod1+g exec --no-startup-id chromium;focus
 
 # Text Editor
 # bindsym $mod+F2 exec --no-startup-id geany;focus
-bindsym $mod+F2 exec --no-startup-id atom;focus
+bindsym $mod+F2 exec --no-startup-id code;focus
 
 # Basic Draw Tool
 bindsym $mod+F3 exec --no-startup-id inkscape;focus
